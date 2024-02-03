@@ -30,3 +30,11 @@ VALUES
 ('Margaritas', 'Ornamental'),
 ('Mango', 'Frutal'),
 ('Zacate de Limón', 'Medicinal');
+
+select a.id,
+        a.nombre as nombre_planta,
+        a.tipo,
+        b.nombre as nombre_zona
+from tbl_planta a
+inner join tbl_zonas_jardin b
+on a.id_zona = b.id
