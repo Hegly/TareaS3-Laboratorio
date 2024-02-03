@@ -12,6 +12,6 @@ planta.post('', postPlanta);
 
 planta.put( '/:id', putPlanta)
 
-planta.delete( '/:id', deletePlanta )
+planta.delete( '/:id', deletePlanta)
 
 export { planta }
