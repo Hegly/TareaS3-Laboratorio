@@ -24,6 +24,20 @@ create table tbl_riego
     tiempo_riego TIME
 );
 
+create table tbl_categoria
+(
+    id serial primary key , 
+    nombre varchar(500)
+);
+
+create table tbl_ubicacion
+(
+    id serial primary key , 
+    nombre varchar(500),
+    latitud NUMERIC,
+    longitud NUMERIC
+);
+
 insert into tbl_planta
 (nombre, tipo)
 VALUES
