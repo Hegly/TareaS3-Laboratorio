@@ -4,7 +4,7 @@ import {getCategoria,
         postCategoria,
         putCategoria,
         deleteCategoria
-    } from "../controllers/zonaController.js";
+    } from "../controllers/categoriaController.js";
 
 categoria.get('', getCategoria );
 

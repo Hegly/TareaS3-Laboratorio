@@ -4,7 +4,7 @@ import {getRiego,
         postRiego,
         putRiego,
         deleteRiego
-    } from "../controllers/zonaController.js";
+    } from "../controllers/riegoController.js";
 
 riego.get('', getRiego );
 
